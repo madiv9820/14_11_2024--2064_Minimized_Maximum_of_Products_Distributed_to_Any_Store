@@ -7,7 +7,7 @@ using namespace std;
 
 class Solution {
 public:
-    int minimizedMaximum(int n, vector<int> quantities) {
+    int minimizedMaximum(int n, vector<int>& quantities) {
         
         // Lambda function to check if it's possible to distribute the quantities into `n` stores,
         // where no store can have more than `x` items.
